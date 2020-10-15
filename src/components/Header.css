@@ -1,0 +1,28 @@
+.Header {
+  background-image: linear-gradient(to right, #dce35b, #45b649);
+  display: flex;
+  padding: 10px;
+}
+
+.Header__Logo {
+  flex: 0 0 30%;
+  text-align: left;
+}
+
+.Header__Logo__image {
+  width: 40%;
+  max-width: 400px;
+  height: auto;
+}
+
+.Header-Right {
+  /* grow by 1 i.e occupying the rest space */
+  flex: 1;
+  text-align: right;
+  margin-top: 1%;
+}
+
+.item {
+  padding: 10px;
+  color: #fff;
+}

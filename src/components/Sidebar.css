@@ -1,0 +1,11 @@
+/* ul li .item {
+  list-style: none;
+} */
+
+.Sidebar__item {
+  list-style-type: none;
+}
+
+.item {
+  display: block;
+}

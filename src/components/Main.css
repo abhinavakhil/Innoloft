@@ -1,0 +1,15 @@
+.Main {
+  display: flex;
+  margin-top: 50px;
+}
+
+.Sidebar {
+  flex: 0 0 30%;
+  background-color: brown;
+  text-align: center;
+}
+
+.User {
+  flex: 0 0 50%;
+  background-color: coral;
+}
