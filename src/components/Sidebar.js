@@ -1,19 +1,17 @@
 import React from 'react'
-import "../components/Sidebar.css";
+import classes from "../components/Sidebar.css";
 
 const sidebar = ()=>{
     return (
         <div>
-            <h1>Sidebar</h1>
-            <a href="#" className="item"><i class="fas fa-home"></i> Home</a>
-            <a href="#" className="item"><i className="fas fa-globe-africa"></i> My Account</a>
-            <a href="#" className="item"><i className="fas fa-globe-africa"></i> My Company</a>
-            <a href="#" className="item"><i className="fas fa-globe-africa"></i> My Settings</a>
-            <a href="#" className="item"><i className="fas fa-globe-africa"></i> News</a>
-            <a href="#" className="item"><i className="fas fa-globe-africa"></i> Analytics</a>
-
-            
-            
+            <ul className={classes.Sidebar__Items}>
+              <li className={classes.item}><i className="fas fa-home"></i> Home</li>
+              <li className={classes.item}><i class="fas fa-user"></i> Account</li>
+              <li className={classes.item}><i class="fas fa-building"></i> Company</li>
+              <li className={classes.item}><i class="fas fa-cog"></i> Settings</li>
+              <li className={classes.item}><i class="far fa-newspaper"></i> News</li>
+              <li className={classes.item}><i class="fas fa-chart-area"></i> Analytics</li>
+            </ul>  
         </div>
     )
 }
